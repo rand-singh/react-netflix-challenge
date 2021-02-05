@@ -1,4 +1,5 @@
-.plansScreen {
+.plansScreen_renewalDate {
+	margin-top: 20px;
 }
 
 .plansScreen__plan {
@@ -20,6 +21,10 @@
 		font-weight: 600;
 		cursor: pointer;
 	}
+}
+
+.plansScreen_plan--disabled > button {
+	background-color: gray;
 }
 
 .plansScreen__Info {
