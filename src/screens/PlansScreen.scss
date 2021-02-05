@@ -1,0 +1,26 @@
+.plansScreen {
+}
+
+.plansScreen__plan {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	opacity: 0.8;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	button {
+		padding: 10px 20px;
+		font-size: 1rem;
+		color: white;
+		background-color: #e50914;
+		border: 0;
+		font-weight: 600;
+		cursor: pointer;
+	}
+}
+
+.plansScreen__Info {
+}
